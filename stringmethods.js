@@ -1,0 +1,14 @@
+var str1 = 'Hello';
+var str2 = 'World';
+var results = str1.concat(str2);
+var results1 = str1.concat(' ', str2);
+var res2 = results.replace('Hello', 'Java');
+var res3 = results.toUpperCase();
+var res = str1.charAt(1);
+var res1 = str2.indexOf('p');
+console.log(res);
+console.log(res1);
+console.log(results);
+console.log(results1);
+console.log(res2);
+console.log(res3);
